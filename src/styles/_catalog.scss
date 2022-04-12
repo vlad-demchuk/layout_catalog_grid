@@ -3,6 +3,8 @@
   gap: 48px;
   justify-content: center;
 
+  grid-template-columns: 200px;
+
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, 200px);
   }
@@ -20,7 +22,6 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
